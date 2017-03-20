@@ -1,0 +1,5 @@
+.vim/cache
+.vim/ftdetect
+.vim/.netrwhist
+.vim/syntax
+.vim/view
