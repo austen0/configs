@@ -1,3 +1,6 @@
+.i3status/i3status.conf
+.i3status/modules/goobuntu_status.py*
+.i3status/modules/prodaccess.py*
 .vim/cache
 .vim/ftdetect
 .vim/.netrwhist
