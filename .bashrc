@@ -89,6 +89,13 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+# custom aliases
+alias rm="rm -i"
+alias vimr='vim -R -c "set nonu"'
+alias open='xdg-open'
+alias tmux='TERM=xterm-256color tmux'
+alias xclip='xclip -selection c'
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
@@ -115,9 +122,3 @@ fi
 if [ -f $HOME/.bashrc_work ]; then
   source $HOME/.bashrc_work
 fi
-
-# custom aliases (aliasi?)
-alias rm="rm -i"
-alias vimr='vim -R -c "set nonu"'
-alias open='xdg-open'
-alias tmux='TERM=xterm-256color tmux'

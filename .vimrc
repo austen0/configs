@@ -58,3 +58,6 @@ nmap <silent> l :wincmd l<CR>
 
 "Delete trailing spaces
 nmap <F9> :%s/\s\+$//g<CR>
+
+"Show full path of current file
+command Path echo expand('%:p')
