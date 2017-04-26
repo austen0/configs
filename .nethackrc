@@ -1,0 +1,5 @@
+OPTIONS=!autopickup, color, menucolors, showexp, showrace, time
+OPTIONS=boulder:0
+OPTIONS=menu_headings:inverse
+OPTIONS=msg_window:reversed
+OPTIONS=name:Malcor, gender:male

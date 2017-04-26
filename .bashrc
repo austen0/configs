@@ -90,7 +90,7 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # custom aliases
-alias rm="rm -i"
+alias rm="rm -I"
 alias vimr='vim -R -c "set nonu"'
 alias open='xdg-open'
 alias tmux='TERM=xterm-256color tmux'
@@ -111,7 +111,7 @@ fi
 bind TAB:menu-complete
 
 # custom $PATH
-export PATH=$PATH:$HOME/.symlinks
+export PATH=$PATH:$HOME/.symlinks:/usr/games
 
 # set TZ
 if [ -f /etc/localtime ]; then
