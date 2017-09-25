@@ -84,6 +84,8 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
+export PS1="\[\e[1;36m\]\u@\h:\W\\$\[\e[m\] "
+
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
