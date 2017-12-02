@@ -1,10 +1,11 @@
-https://duckduckgo.com/settings: diary digit curse iran
-
 sudo apt-get install \
+dconf-editor \
+gdebi \
 git \
 htop \
 qpdfview \
 tmux \
 ttf-mscorefonts-installer \
+unity-tweak-tool \
 vlc \
 vim
