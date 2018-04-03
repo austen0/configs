@@ -1,1 +1,1 @@
-sudo apt-get install dconf-editor gdebi git htop qpdfview tmux ttf-mscorefonts-installer unity-tweak-tool vim vlc
+sudo apt-get install dconf-editor fonts-inconsolata gdebi git htop qpdfview tmux ttf-mscorefonts-installer vim vlc
