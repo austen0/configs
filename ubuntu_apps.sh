@@ -8,4 +8,5 @@ qpdfview \
 tmux \
 ttf-mscorefonts-installer \
 vim \
-vlc
+vlc \
+xclip
